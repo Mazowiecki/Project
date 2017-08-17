@@ -137,20 +137,18 @@ header{
 .nav_logo p{
     font-family: 'Pacifico', cursive;
     font-size: 72px;
+    color: black;
 }
 .nav_icons i{
     color: #d9bf8f;
     margin-right: 38px;
-
-}
-.nav_icons i::after{
-    content: '';
     width: 34px;
     height: 34px;
     border:2px solid #d9bf8f;
     border-radius: 50%;
-    display: block;
-
+    text-align: center;
+    line-height: 31px;
+}
 
 
 
@@ -161,7 +159,7 @@ header{
 
 
 
-}
+
 .nav_icons select{
     height: 35px;
     width: 90px;

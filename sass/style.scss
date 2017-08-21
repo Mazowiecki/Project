@@ -613,3 +613,153 @@ header{
     height: 90%;
     width: 90%;
 }
+
+
+/* **************************************************
+
+                     Recent
+
+***************************************************** */
+
+.recent_wrap{
+    border: 1px solid #f2f2f2;
+}
+
+
+.recent_row1_pic1{
+    background: url("../pictures/recent3.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row1_pic1 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row1_pic2{
+    background: url("../pictures/recent2.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row1_pic2 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row1_pic3{
+    background: url("../pictures/recent3.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row1_pic3 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row1_pic4{
+    background: url("../pictures/recent4.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row1_pic4 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+
+
+
+
+.recent_row2_pic1{
+    background: url("../pictures/recent5.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row2_pic1 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row2_pic2{
+    background: url("../pictures/recent6.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row2_pic2 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row2_pic3{
+    background: url("../pictures/recent7.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row2_pic3 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}
+
+
+
+.recent_row2_pic4{
+    background: url("../pictures/recent8.jpg")no-repeat;
+    background-size: cover;
+    height: 348px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.recent_row2_pic4 div{
+    background: url("../pictures/recentrectangle.png")no-repeat;
+    background-size: cover;
+    height: 44px;
+}

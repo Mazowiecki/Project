@@ -1,0 +1,27 @@
+/* **************************************************
+
+                       GLOBALS
+
+***************************************************** */
+
+.global_container {
+  width: 1290px;
+  margin:0 auto;
+}
+.li_nostyle li{
+  display: inline-block;
+  list-style: none;
+}
+.a_nostyle a{
+  text-decoration: none;
+}
+$lato: 'Lato', sans-serif;
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}

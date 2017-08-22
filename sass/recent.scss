@@ -1,0 +1,283 @@
+/* **************************************************
+
+                     Recent
+
+***************************************************** */
+.recent .col-lg-3{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.recent .row1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.recent .row2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.recent .row1_first{
+  padding-left: 20px;
+}
+.recent .row1_last{
+  padding-right: 20px;
+}
+.recent .row2_first{
+  padding-left: 20px;
+}
+.recent .row2_last{
+  padding-right: 20px;
+}
+.recent_wrap{
+  border: 1px solid #f2f2f2;
+}
+
+
+.recent_row1_pic1{
+  background: url("../pictures/recent3.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.recent_row1_pic1 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+  color: black;
+}
+.recent_row1_pic1 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row1_pic2{
+  background: url("../pictures/recent2.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row1_pic2 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row1_pic2 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row1_pic3{
+  background: url("../pictures/recent3.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row1_pic3 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row1_pic3 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row1_pic4{
+  background: url("../pictures/recent4.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row1_pic4 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row1_pic4 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.recent_row2_pic1{
+  background: url("../pictures/recent5.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row2_pic1 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row2_pic1 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row2_pic2{
+  background: url("../pictures/recent6.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row2_pic2 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row2_pic2 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row2_pic3{
+  background: url("../pictures/recent7.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row2_pic3 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row2_pic3 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+
+.recent_row2_pic4{
+  background: url("../pictures/recent8.jpg")no-repeat;
+  background-size: cover;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.recent_row2_pic4 div{
+  background: url("../pictures/recentrectangle.png")no-repeat;
+  background-size: cover;
+  height: 44px;
+}
+.recent_row2_pic4 div p{
+  text-align: center;
+  font-family: $lato;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 991px) {
+  .row1_first{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .recent_row1_pic1{
+    height: 1044px;
+  }
+  .recent_row1_pic2{
+    height: 1044px;
+  }
+  .recent_row1_pic3{
+    height: 1044px;
+  }
+  .recent_row1_pic4{
+    height: 1044px;
+  }
+  .row1_last{
+    padding-bottom: 10px;
+  }
+  .row2_first{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .recent_row2_pic1{
+    height: 1044px;
+  }
+  .recent_row2_pic2{
+    height: 1044px;
+  }
+  .recent_row2_pic3{
+    height: 1044px;
+  }
+  .recent_row2_pic4{
+    height: 1044px;
+  }
+  .recent .row2_last {
+    padding-right: 10px;
+  }
+}

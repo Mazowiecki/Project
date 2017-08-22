@@ -1,0 +1,62 @@
+/* **************************************************
+
+                       BRANDS
+
+***************************************************** */
+
+
+.brands_container{
+  margin-top: 135px;
+}
+.brand1{
+  background: url("../pictures/brand1.png")no-repeat;
+  height: 98px;
+}
+.brand2{
+  background: url("../pictures/brand2.png")no-repeat;
+  height: 79px;
+}
+.brand3{
+  background: url("../pictures/brand3.png")no-repeat;
+  height: 80px;
+}
+.brand4{
+  background: url("../pictures/brand4.png")no-repeat;
+  height: 83px;
+}
+.brand5{
+  background: url("../pictures/brand5.png")no-repeat center;
+  margin-top: 10px;
+  height: 45px;
+}
+.brand6{
+  background: url("../pictures/brand6.png")no-repeat center;
+  margin-top: 10px;
+  height: 45px;
+}
+
+
+@media (max-width: 991px) {
+  .brands_container{
+    margin-top: 50px;
+  }
+  .brand1{
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .brand2{
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .brand3{
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .brand4{
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .brand5{
+    margin-bottom: 20px;
+  }
+}

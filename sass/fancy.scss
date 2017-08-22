@@ -1,0 +1,63 @@
+
+/* **************************************************
+
+                        FANCY
+
+***************************************************** */
+
+.fancy{
+  margin-top: 107px;
+  margin-bottom: 68px;
+}
+.fancy p{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+.fancy p:before{
+  content: "";
+  width: 19px;
+  height: 19px;
+  background-color: #d9bf8f;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.fancy p:after{
+  content: "";
+  width: 19px;
+  height: 19px;
+  background-color: #d9bf8f;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 5px;
+  left: 400px
+}
+.fancy_line_left{
+  height: 1px;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+}
+.fancy_line_right{
+  @extend .fancy_line_left
+}
+
+
+@media (max-width: 991px) {
+  .fancy_line_left{
+    display: none;
+  }
+  .fancy_line_right{
+    display: none;
+  }
+  .fancy p:before{
+    left: 460px;
+  }
+  .fancy p:after{
+    left: 810px;
+  }
+}

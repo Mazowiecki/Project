@@ -71,3 +71,10 @@
   margin-bottom: 3px;
   margin-left: 52px;
 }
+
+@media (max-width: 991px) {
+  .nav_container::after{
+    right: 25%;
+    left: 25%;
+  }
+}

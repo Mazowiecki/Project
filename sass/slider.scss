@@ -14,15 +14,11 @@
 .slide_one{
   background-size: cover;
   background: url("../pictures/sliderone.jpg") center;
-  position: relative;
 }
 .first_square{
   border: 2px solid white;
   height: 277px;
   width: 277px;
-  position: absolute;
-  bottom: 274px;
-  left: 506px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,8 +103,7 @@
   font-weight: bold;
   font-size: 24px;
   position: absolute;
-  left: 549px;
-  bottom: 166px;
+  bottom: 115px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -141,4 +136,17 @@
   background-color: lightgrey;
   border: 1px solid black;
   transform: rotate(45deg);
+}
+.slider_wrap{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .slick-list, .slick-track {
+    height: 100%;
+  }
+
 }

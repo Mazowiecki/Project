@@ -72,9 +72,22 @@
   margin-left: 52px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1282px) {
   .nav_container::after{
-    right: 25%;
-    left: 25%;
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav_container{
+    justify-content: center;
+    line-height: 100px;
+    align-items: baseline;
+  }
+  .nav_menu, .nav_icons{
+    display: none;
+  }
+  .nav_container::after{
+    display: none;
   }
 }

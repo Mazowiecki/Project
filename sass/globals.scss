@@ -5,8 +5,9 @@
 ***************************************************** */
 
 .global_container {
-  width: 1290px;
-  margin:0 auto;
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
 }
 .li_nostyle li{
   display: inline-block;
@@ -26,8 +27,4 @@ $lato: 'Lato', sans-serif;
   margin-left: 0px;
 }
 
-.global_container {
-  max-width: 1290px;
-  margin: 0 auto;
-  width: 100%;
-}
+

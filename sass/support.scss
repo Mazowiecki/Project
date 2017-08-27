@@ -165,3 +165,12 @@
     padding: 0px;
   }
 }
+
+@media (max-width: 991px) {
+  .support div{
+    margin-right: 50px;
+  }
+  .support_info{
+    margin-top: 0px;
+  }
+}

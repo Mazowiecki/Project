@@ -13,7 +13,8 @@
 }
 .slide_one{
   background-size: cover;
-  background: url("../pictures/sliderone.jpg") center;
+  background: url("../pictures/sliderone.jpg")center no-repeat;
+  position: relative;
 }
 .first_square{
   border: 2px solid white;
@@ -109,17 +110,17 @@
   text-transform: uppercase;
 }
 .slide_two{
-  background: url("../pictures/slidertwo.jpg") center;
+  background: url("../pictures/slidertwo.jpg")center no-repeat;
   background-size: cover;
   position: relative;
 }
 .slide_three {
-  background: url("../pictures/sliderthree.jpg") center;
+  background: url("../pictures/sliderthree.jpg")center no-repeat;
   background-size: cover;
   position: relative;
 }
 .slide_four {
-  background: url("../pictures/sliderfour.jpg") center;
+  background: url("../pictures/sliderfour.jpg")center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -148,5 +149,21 @@
   .slick-list, .slick-track {
     height: 100%;
   }
-
+  .slider_container{
+    height: 100vh;
+  }
+  .slide_one {
+    background-position: 84%;
+    background-size: 370%;
+  }
+  .slide_two {
+    background-position-x: -300px;
+  }
+  .slide_four {
+    background-size: 350%;
+    background-position-y: -220px;
+  }
+  .slick-dotted.slick-slider{
+    margin-bottom: 0px;
+  }
 }

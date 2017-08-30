@@ -88,3 +88,22 @@
   @extend .testimonial_text3;
   text-align: right;
 }
+
+
+@media (max-width: 1024px){
+  .testimonial_container:before{
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .testimonial_container{
+    height: 710px;
+  }
+  .testimonial_left{
+    justify-content: flex-start;
+  }
+  .testimonial_right{
+    justify-content: flex-end;
+  }
+}

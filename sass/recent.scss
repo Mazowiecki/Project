@@ -242,42 +242,57 @@
 
 
 @media (max-width: 991px) {
-  .row1_first{
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .recent_row1_pic1{
-    height: 1044px;
-  }
-  .recent_row1_pic2{
-    height: 1044px;
-  }
-  .recent_row1_pic3{
-    height: 1044px;
-  }
-  .recent_row1_pic4{
-    height: 1044px;
-  }
-  .row1_last{
+  .recent .row1{
+    padding-top: 0;
     padding-bottom: 10px;
+    padding-right: 10px;
   }
-  .row2_first{
-    padding-right: 0px;
-    padding-left: 0px;
+  .recent .row1_first {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
-  .recent_row2_pic1{
-    height: 1044px;
+  .recent .row2{
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
-  .recent_row2_pic2{
-    height: 1044px;
-  }
-  .recent_row2_pic3{
-    height: 1044px;
-  }
-  .recent_row2_pic4{
-    height: 1044px;
+  .recent .row2_first{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 10px;
   }
   .recent .row2_last {
     padding-right: 10px;
+  }
+
+
+  $height: 93vw;
+
+  .recent_row1_pic1{
+    height: $height;
+  }
+  .recent_row1_pic2{
+    height: $height;
+  }
+  .recent_row1_pic3{
+    height: $height;
+  }
+  .recent_row1_pic4{
+    height: $height;
+  }
+  .recent_row2_pic1{
+    height: $height;
+  }
+  .recent_row2_pic2{
+    height: $height;
+  }
+  .recent_row2_pic3{
+    height: $height;
+  }
+  .recent_row2_pic4{
+    height: $height;
   }
 }

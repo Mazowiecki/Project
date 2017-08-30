@@ -114,3 +114,8 @@ footer .col-lg-6{
     text-align: center;
   }
 }
+@media (max-width: 991px) {
+  .footer_pictures a div{
+    margin-right: 10px;
+  }
+}

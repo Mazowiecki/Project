@@ -46,8 +46,7 @@
   @extend .fancy_line_left
 }
 
-
-@media (max-width: 991px) {
+@media (max-width: 1024px){
   .fancy_line_left{
     display: none;
   }
@@ -59,5 +58,18 @@
   }
   .fancy p:after{
     display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .fancy p:before{
+    display: none;
+  }
+  .fancy p:after{
+    display: none;
+  }
+  .fancy {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

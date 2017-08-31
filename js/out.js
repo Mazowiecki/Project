@@ -76,8 +76,8 @@ $(document).ready(function () {
     $(".slider_container").slick({
         infinite: true,
         responsive: true,
-        // autoplay: true,
-        // autoplaySpeed: 5000,
+        autoplay: true,
+        autoplaySpeed: 5000,
         arrows: false,
         dots: true
     });
@@ -97,6 +97,19 @@ $(document).ready(function () {
             $(".cross").hide();
             $(".hamburger").show();
         });
+    });
+
+    var addbox = $(".recent_box");
+    var atc = $(".addtc_box");
+    atc.hide();
+
+    addbox.on("mouseenter", function (event) {
+        var addbox = $(event.target);
+        addbox.children().slideDown("fast", function () {});
+    });
+
+    addbox.on("mouseleave", function (event) {
+        addbox.children().slideUp("fast", function () {});
     });
 });
 

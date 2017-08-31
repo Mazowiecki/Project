@@ -133,3 +133,15 @@
     height: 100vw;
   }
 }
+
+@media (max-width: 1024px){
+  .featured_left2{
+    background-position: center;
+  }
+  .featured_right1{
+    background-position: center;
+  }
+  .featured_right2{
+    background-position: center;
+  }
+}
